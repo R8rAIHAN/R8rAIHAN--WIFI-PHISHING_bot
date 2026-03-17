@@ -1,7 +1,11 @@
 services:
   - type: web
-    name: wifi-bot
-    env: php
+    name: wifi-phish-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: CHAT_ID
+        sync: false
     plan: free
-    buildCommand: ""
-    startCommand: php -S 0.0.0.0:$PORT || php -S 0.0.0.0:10000
