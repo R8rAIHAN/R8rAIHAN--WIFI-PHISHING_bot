@@ -1,10 +1,8 @@
-# R8rAIHAN--WIFI-PHISHING_bot
-# WiFi Password Capture Bot
+# 🔥 WiFi Phishing Telegram Bot (Docker)
 
-Telegram bot for WiFi credential capture.
+## 🚀 Render.com Deploy (সবচেয়ে সহজ)
 
-## Deploy to Render
-
-1. Fork this repo
-2. Render.com → New Web Service → Connect GitHub
-3. Add Environment Variables:
+1. এই সব ফাইল GitHub এ push করুন
+2. Render.com → New → Web Service → **Docker**
+3. GitHub repo connect করুন
+4. Environment Variables:
