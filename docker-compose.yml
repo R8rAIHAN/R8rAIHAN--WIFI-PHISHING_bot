@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  wifi-bot:
+    build: .
+    ports:
+      - "8080:80"
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - CHAT_ID=${CHAT_ID}
+    volumes:
+      - .:/var/www/html
